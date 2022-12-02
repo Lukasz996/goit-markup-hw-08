@@ -96,4 +96,29 @@
 		justify-content: flex-end;
 		margin-bottom: 0;
 	}
+
+	.site-nav__contact {
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+
+	.site-nav__primary {
+		margin: auto;
+	}
+
+	.site-nav__secondary {
+		padding-left: 46px;
+		margin-right: 0;
+	}
+}
+
+@media (min-width: 1200px) {
+	.site-nav__address {
+		display: flex;
+		margin-left: 200px;
+	}
+
+	.site-nav__contact {
+		margin-bottom: 0;
+	}
 }

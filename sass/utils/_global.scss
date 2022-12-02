@@ -6,6 +6,8 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	color: var(--bgray-color);
+	margin: 0;
+	padding: 0;
 }
 
 a:link {
@@ -21,7 +23,6 @@ button[type='button'] {
 }
 
 .block {
-	padding-top: 60px;
 	padding-bottom: 60px;
 }
 

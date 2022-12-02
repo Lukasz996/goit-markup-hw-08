@@ -12,9 +12,9 @@
     rel="stylesheet" />
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" />
-  <link href="./css/main.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css" />
+    <link href="./css/main.min.css" rel="stylesheet" />
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css" />
 </head>
 
 <body>
@@ -78,7 +78,7 @@
   <main>
     <div class="wrapper wrapper__background">
       <h1 class="wrapper">
-        efektywne rozwiazania <br />
+        efektywne rozwiązania <br />
         dla waszego biznesu
       </h1>
 
@@ -146,20 +146,34 @@
 
       <ul class="block-photo">
         <li class="block-photo__competition">
-          <img class="block-photo__data" src="./images/index_img/klawiatura.jpg" alt="dłonie na klawiaturze" width="370"
-            height="294" />
-          <p class="block-photo__overlay">Aplikacje komputerowe</p>
+
+          <picture>
+            <source media="(min-width: 1200px)" srcset="./images/index_img/klawiatura-desktop-1x.jpg
+              , ./images/index_img/tablet-klawiatura-2x@2x.jpg" type="image/jpg">
+            <img class="block-photo__data" src="./images/index_img/klawiatura.jpg" alt="dłonie na klawiaturze"
+              width="370" height="294" />
+            <p class="block-photo__overlay">Aplikacje komputerowe</p>
         </li>
 
         <li class="block-photo__competition">
-          <img class="block-photo__data" src="./images/index_img/telefon.jpg" alt="telefon w dłoni" width="370"
-            height="294" />
+
+          <picture>
+            <source media="(min-width: 1200px)" srcset="./images/index_img/telefon-desktop-1x.jpg
+              , ./images/index_img/telefon-desktop-2x@2x.jpg" type="image/jpg">
+            <img class="block-photo__data" src="./images/index_img/telefon.jpg" alt="telefon w dłoni" width="370"
+              height="294" />
+          </picture>
           <p class="block-photo__overlay">Aplikacje mobilne</p>
         </li>
 
         <li class="block-photo__competition">
-          <img class="block-photo__data" src="./images/index_img/tablet.jpg" alt="tablet w dłoni" width="370"
-            height="294" />
+          <picture>
+            <source media="(min-width: 1200px)" srcset="./images/index_img/tablet-desktop-1x.jpg
+              , ./images/index_img/tablet-desktop-2x@2x.jpg" type="image/jpg">
+
+            <img class="block-photo__data" src="./images/index_img/tablet.jpg" alt="tablet w dłoni" width="370"
+              height="294">
+          </picture>
           <p class="block-photo__overlay">Rozwiązania graficzne</p>
         </li>
       </ul>
@@ -168,8 +182,9 @@
     <div class="team block">
       <h2 class="title__color team__title">Nasz zespół</h2>
       <ul class="team__list">
+
         <li class="team__photo">
-          <div class="team-photo__position">
+          <div class="team__photo--position">
 
             <picture>
               <source media="(max-width: 756px)"
@@ -180,7 +195,7 @@
                 type="image/jpg">
 
               <source media="(min-width: 1200px)" srcset="./images/index_img/product_designer-desktop-1x.jpg
-                , ./images/index_img/product_designer-desktop-2x@2x.jpg">
+                , ./images/index_img/product_designer-desktop-2x@2x.jpg" type="image/jpg">
 
               <img src="./images/index_img/product_designer.jpg" alt="zdjęcie Product Designer">
             </picture>
@@ -203,28 +218,28 @@
               </div>
               <ul class="social-link">
                 <li>
-                  <a class="social-link__box" href="#">
+                  <a class="social-link__box" href="https://www.instagram.com/">
                     <svg class="social-link__icon">
                       <use href="./images/icons.svg#icon-instagram-2"></use>
                     </svg>
                   </a>
                 </li>
                 <li>
-                  <a class="social-link__box" href="#">
+                  <a class="social-link__box" href="https://www.twitter.com/">
                     <svg class="social-link__icon">
                       <use href="./images/icons.svg#icon-twitter-1"></use>
                     </svg>
                   </a>
                 </li>
                 <li>
-                  <a class="social-link__box" href="#">
+                  <a class="social-link__box" href="https://www.facebook.com/">
                     <svg class="social-link__icon">
                       <use href="./images/icons.svg#icon-facebook-1"></use>
                     </svg>
                   </a>
                 </li>
                 <li>
-                  <a class="social-link__box" href="#">
+                  <a class="social-link__box" href="https://www.Linkedin.com/">
                     <svg class="social-link__icon">
                       <use href="./images/icons.svg#icon-linkedin-1"></use>
                     </svg>
@@ -237,7 +252,7 @@
 
         <li>
           <div class="team__photo">
-            <div class="team-photo__position">
+            <div class="team__photo--position">
 
               <picture>
                 <source media="(max-width: 756px)"
@@ -273,28 +288,28 @@
                 </div>
                 <ul class="social-link">
                   <li>
-                    <a class="social-link__box" href="#">
+                    <a class="social-link__box" href="https://www.Instagram.com/">
                       <svg class="social-link__icon">
                         <use href="./images/icons.svg#icon-instagram-2"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="social-link__box" href="#">
+                    <a class="social-link__box" href="https://www.twitter.com/">
                       <svg class="social-link__icon">
                         <use href="./images/icons.svg#icon-twitter-1"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="social-link__box" href="#">
+                    <a class="social-link__box" href="https://www.facebook.com/">
                       <svg class="social-link__icon">
                         <use href="./images/icons.svg#icon-facebook-1"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="social-link__box" href="#">
+                    <a class="social-link__box" href="https://www.Linkedin.com/">
                       <svg class="social-link__icon">
                         <use href="./images/icons.svg#icon-linkedin-1"></use>
                       </svg>
@@ -342,28 +357,28 @@
                 </div>
                 <ul class="social-link">
                   <li>
-                    <a class="social-link__box" href="#">
+                    <a class="social-link__box" href="https://www.instagram.com/">
                       <svg class="social-link__icon">
                         <use href="./images/icons.svg#icon-instagram-2"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="social-link__box" href="#">
+                    <a class="social-link__box" href="https://www.twitter.com/">
                       <svg class="social-link__icon">
                         <use href="./images/icons.svg#icon-twitter-1"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="social-link__box" href="#">
+                    <a class="social-link__box" href="https://www.facebook.com/">
                       <svg class="social-link__icon">
                         <use href="./images/icons.svg#icon-facebook-1"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="social-link__box" href="#">
+                    <a class="social-link__box" href="https://www.Linkedin.com/">
                       <svg class="social-link__icon">
                         <use href="./images/icons.svg#icon-linkedin-1"></use>
                       </svg>
@@ -377,7 +392,7 @@
 
         <li>
           <div class="team__photo">
-            <div class="team__photo--position">
+            <v class="team__photo--position">
 
               <picture>
                 <source media="(max-width: 756px)"
@@ -411,28 +426,28 @@
                 </div>
                 <ul class="social-link">
                   <li>
-                    <a class="social-link__box" href="#">
+                    <a class="social-link__box" href="https://www.instagram.com/">
                       <svg class="social-link__icon">
                         <use href="./images/icons.svg#icon-instagram-2"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="social-link__box" href="#">
+                    <a class="social-link__box" href="https://www.twitter.com/">
                       <svg class="social-link__icon">
                         <use href="./images/icons.svg#icon-twitter-1"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="social-link__box" href="#">
+                    <a class="social-link__box" href="https://www.facebook.com/">
                       <svg class="social-link__icon">
                         <use href="./images/icons.svg#icon-facebook-1"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="social-link__box" href="#">
+                    <a class="social-link__box" href="https://www.likedin.com/">
                       <svg class="social-link__icon">
                         <use href="./images/icons.svg#icon-linkedin-1"></use>
                       </svg>
@@ -440,10 +455,10 @@
                   </li>
                 </ul>
               </div>
-            </div>
           </div>
-        </li>
-      </ul>
+    </div>
+    </li>
+    </ul>
     </div>
 
     <div class="section-box">
@@ -517,28 +532,28 @@
           <p class="social__title">dołącz do nas</p>
           <ul class="social__list--footer">
             <li>
-              <a class="social__link--footer" href="#">
+              <a class="social__link--footer" href="https://www.instagram.com/">
                 <svg class="social__icon--footer">
                   <use href="./images/icons.svg#icon-instagram-2"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="social__link--footer" href="#">
+              <a class="social__link--footer" href="https://www.twitter.com/">
                 <svg class="social__icon--footer">
                   <use href="./images/icons.svg#icon-twitter-1"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="social__link--footer" href="#">
+              <a class="social__link--footer" href="https://www.facebook.com/">
                 <svg class="social__icon--footer">
                   <use href="./images/icons.svg#icon-facebook-1"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="social__link--footer" href="#">
+              <a class="social__link--footer" href="https://www.Linkedin.com/">
                 <svg class="social__icon--footer">
                   <use href="./images/icons.svg#icon-linkedin-1"></use>
                 </svg>
@@ -551,7 +566,7 @@
           <fieldset class="subscribe__border">
             <label for="fieldset-newsletter">
               <span class="subscribe__label">Zapisz się do newslettera</span>
-              <input class="subscribe__input" type="email" id="fieldset-newsletter" placeholder="Email" />
+              <input class="subscribe__input" type="email" id="fieldset-newsletter" placeholder="E-mail" />
             </label>
           </fieldset>
           <button class="subscribe__button" type="button">
@@ -619,6 +634,7 @@
           </div>
         </li>
       </ul>
+
     </div>
   </div>
 

@@ -1,13 +1,13 @@
 .logo {
-	margin-top: 16px;
 	margin-left: 15px;
+	margin-top: 16px;
 	margin-bottom: 16px;
-
+	font-family: 'Raleway';
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 1.19;
+	letter-spacing: 0.03em;
 	color: var(--blue-color);
-	font-family: 'Raleway';
 
 	&:hover,
 	&:focus {
@@ -38,10 +38,7 @@
 @media (min-width: 768px) {
 	.logo {
 		display: flex;
-		flex-direction: row;
-		align-items: center;
-		// justify-content: flex-start;
-
+		justify-content: flex-start;
 		margin: 0;
 		padding: 0;
 		margin-right: 80px;
